@@ -1,0 +1,60 @@
+/* 영어 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
+
+/* 내비게이션바 */
+
+a {
+    color: #455651;
+    text-decoration: none;
+}
+
+.nav {
+    /* 배경색 */
+    background: linear-gradient(to top, #FFFFFF, #758280, #455651); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    position: sticky;
+    top: 0;
+    transition:1s;
+
+    /* 맨 위에 위치 */
+    z-index: 99;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0 100px 50px 0;
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    color: #455651;
+}
+
+.nav-item {
+    padding: 30px;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+    color: #fff;
+    transition: 1s;
+}
+
+
+/* 스크롤 됐을 때 속성 */
+.nav.change {
+    height: 70px;
+    transition:1s;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.nav-list.change {
+    color: #ffffff;
+    margin: 0 100px -10px 0;
+}
