@@ -10,60 +10,85 @@
     padding: 0;
 }
 #backgroundImg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(../images/EiffelTower.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
 }
+
 li {
     list-style-type: none;
     display: inline-block;
-    color: white;
     font-size: 1.5em;
     margin: 5px 150px 5px 150px;
     padding: 3px;
 }
 nav {
+    margin-top: 150px;
+    margin-left: 100px;
     text-align: center;
     height: 100px;
+    position: absolute;
 }
 
 .img1 {
     width: 400px;
     margin: 30px;
+    position: absolute;
     float: left;
 }
 .div1 {
     width: 50px;
     height: 50px;
     margin-left: 40px;
-    float: left;
-}
-.div2{
-    width: 40px;
-    height: 5px;
-    background-color: white;
-    margin: 8px 5px 10px 5px;
-    border-radius: 5px;
-}
-.checkbox-wrap{ 
-    cursor: pointer; 
-}
-.checkbox-wrap .check-icon{ 
-    display: inline-block; 
-    width: 60px; 
-    height: 50px; 
-    background: url(../images/menu.png) left center no-repeat; 
-    vertical-align: middle; 
-    transition-duration: .3s; 
-}
-.checkbox-wrap input[type=checkbox]{ 
-    display: none; 
-}
-.checkbox-wrap input[type=checkbox]:checked + .check-icon{ 
-    background-image: url(../images/x.png); 
 }
 
+a {
+    text-decoration-line: none;
+}
 
-
-
+.div3 {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 220px; 
+    color: white;
+}
+.div4 {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 220px; 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.nav2 a, a:link, a:visited {
+    color: black;
+}
+.img2 {
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+.div2 {
+    background-color: #BAD7E9;
+    width: 1100px;
+    height: 200px;
+    padding: 120px 30px 0 30px;
+    margin: auto;
+    font-size: 23px;
+}
+.div5 {
+    text-align: right;
+    font-size: xx-large;
+    margin: 100px 55px 100px 55px;
+}
+.div5 p {
+    padding: 10px 10px 10px 0;
+    border: #BAD7E9 3px solid;
+}
+.div5 img {
+    margin-top: 6px;
+}
+footer {
+    height: 80px;
+    text-align: center;
+    background-color: #BAD7E9;
+}
