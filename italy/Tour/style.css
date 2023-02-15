@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    margin-top: 430px;
+    display: flex;
+    float: right;
+    margin-right: 170px;
+}
+
+button img {
+    width:100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
