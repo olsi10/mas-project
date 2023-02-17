@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="./img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-icon-72x72.png">
@@ -21,9 +23,94 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content=".earth-img/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <title>유럽 찍먹하기</title>
 </head>
 <body>
     
+    <!-- 헤더 -->
+    <div class="headerWrap">
+        <div class="icon"></div>
+        <div class="logo">가자! 유럽 찍먹하기</div>
+        <div class="nav">
+            <li class="nav-item"><a href="./france/main.html">프랑스</a></li>
+            <li class="nav-item"><a href="./italy/main/index.html">이탈리아</a></li>
+        </div>
+    </div>
+    
+    <!-- 비디오 -->
+    <div class="mov">
+        <video src="./video/travel.mp4" autoplay="true" loop="true" muted="true" playsinline="true"></video>
+    </div>
+
+    <!-- 코로나로 인한 뭐시기 -->
+    <div class="covid">
+        <div class="covid-img">
+            <img data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            src="https://image.edaily.co.kr/images/Photo/files/NP/S/2020/04/PS20042800388.jpg" alt="">
+            <img data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            src="https://newsroom.cha.ac.kr/wp-content/uploads/2021/03/%E1%84%8F%E1%85%A9%E1%84%85%E1%85%A9%E1%84%82%E1%85%A1%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%AE-%E1%84%8E%E1%85%A6%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B30329-%E1%84%8E%E1%85%A1%E1%84%85%E1%85%A5%E1%84%87%E1%85%B3%E1%84%85%E1%85%A6%E1%84%90%E1%85%A5-%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%80%E1%85%AD%E1%84%8E%E1%85%A6-1.png" alt="">
+            <img data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+            src="http://image.dongascience.com/Photo/2020/12/204c3e5fe79dd8616ff98d5817999124.jpg" alt="">
+            <img data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            src="https://www.yonsei.ac.kr/_attach/editor_image/2021-04/kwixkvsdxgey.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="dot">
+        <div class="dot-item">·</div>
+        <div class="dot-item">·</div>
+        <div class="dot-item">·</div>
+    </div>
+
+    <div class="text-area">
+        코로나 첫 감염자 발생 이후 4년 뒤인 2023년<br/>마스크가 <b>규제</b>가 아닌 <b>권고</b>로 바뀌었다.<br/>
+        <br/>
+        4년간 발이 묶여있던 국민들은 밝은 미소로 공항을 찾기 시작한다.
+        <br/>
+    </div>
+
+    <div class="intro">
+        <img src="../img/paper.png" alt="">
+        <p class="title1">4년간 발에 묶여있던 사람들은 어디로 갈지 행복회로를 돌리기 시작한다.</p>
+        <p class="title2">어디로 갈지 모르겠다면 둘러 보세요.</p>
+        <p class="title3">- 유럽 찍먹하기 드림 -</p>
+    </div>
+
+
+    <div class="container">
+        <div class="france">
+            <div class="vid">
+                <video src="./video/france.mp4" autoplay="true" loop="true" muted="true" playsinline="true"></video>
+            </div>
+            <div class="hyper hf">
+                <a href="../france/main.html">프랑스로 떠나기 🛫</a>
+            </div>
+        </div>
+
+        <div class="italy">
+            <div class="vid">
+                <video src="./video/italy.mp4" autoplay="true" loop="true" muted="true" playsinline="true"></video>
+            </div>
+            <div class="hyper hi"><a href="../italy/main/index.html">이탈리아 바로가기🛬</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> 
+        AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+        // https://inpa.tistory.com/entry/AOS-%F0%9F%93%9A-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-Animate-On-Scroll
+    </script>
 </body>
 </html>

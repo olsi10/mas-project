@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, b{
+    margin: 0 5px;
+    font-family: 'Pretendard';
+}
+
+.container {
+    width: 100%;
+    height: 4000px;
+}
+
+.mov {
+    width: 100%;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.mov video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.covid {
+    width: 50%;
+    margin: 250px auto;
+    display: flex;
+}
+
+.covid img {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #00539C;
+}
+
+.covid img:nth-child(4) {
+    width: 100%;
+}
+
+.dot {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: -130px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.dot-item {
+    margin: 30px;
+}
+
+.text-area {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Pretendard';
+    font-weight: 300;
+    text-align: center;
+    line-height: 2;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.intro {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.intro .title1 {
+    position: absolute;
+    width: 800px;
+    height: 30px;
+    top: 160px;
+    left: 500px;
+}
+
+.intro .title2 {
+    position: absolute;
+    width: 800px;
+    height: 30px;
+    top: 190px;
+    left: 690px;
+}
+
+.intro .title3 {
+    position: absolute;
+    width: 800px;
+    height: 30px;
+    top: 220px;
+    left: 1200px;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    height: 1300px;
+    margin-top: 300px;
+    position: relative;
+}
+
+.france {
+    width: 60%;
+    float: left;
+}
+
+.vid video {
+    width: 100%;
+}
+
+.italy {
+    width: 60%;
+    float: right;
+    margin-top: 120px;
+}
+
+.hyper {
+    width: 300px;
+    height: 40px;
+    background-color: #FFD662;
+    padding: 7px;
+    align-items: center;
+    font-size: 23px;
+    position: absolute;
+}
+
+.hf {
+    top: 400px;
+    left: 900px;
+}
+
+.hi {
+    top: 1050px;
+    left: 400px;
+}
+
+.hyper a:hover {
+    color: #00539C;
+}
