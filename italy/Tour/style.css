@@ -1,6 +1,16 @@
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+/* body {
+    background-image: url(https://img.freepik.com/free-photo/white-crumpled-paper-texture-for-background_1373-159.jpg);
+} */
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 button {
@@ -22,4 +32,262 @@ button img {
 
 button:hover {
     cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 5000px;
+    margin-top: 900px;
+}
+
+.container p {
+    font-size: 30px;
+    font-family: 'Pretendard';
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: #3d4d3d;
+    border-bottom: solid 1px black;
+}
+
+.first-item {
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.items {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+.items .text-area {
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    background: rgba(0, 0, 0, 0.4);
+    height: 70px;
+    color: #fff;
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.items:hover {
+    transform: scale(1.1);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.items:nth-child(1) {
+    background-image: url(https://i.ytimg.com/vi/0-RCugTpy7g/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+.items:nth-child(2) {
+    background-image: url(https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/vgm3jn4xf6mmsanreyjc/%EB%A1%9C%EB%A7%88%20%EC%BD%9C%EB%A1%9C%EC%84%B8%EC%9B%80%20&%20%ED%8F%AC%EB%A1%9C%20%EB%A1%9C%EB%A7%88%EB%85%B8%20&%20%ED%8C%94%EB%9D%BC%ED%8B%B0%EB%85%B8%20%EC%96%B8%EB%8D%95%20%EC%9E%85%EC%9E%A5%EA%B6%8C.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.items:nth-child(3) {
+    background-image: url(https://youimg1.tripcdn.com/target/01051120008dcoktuC61E_C_800_600.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+}
+
+.items:nth-child(4) {
+    background-image: url(https://image.ytn.co.kr/general/jpg/2018/1123/201811231035129500_t.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
+}
+
+body > div.container > p:nth-child(3) {
+    margin: 120px auto 50px auto;
+}
+
+.second {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second-items:nth-child(1) {
+    background-image: url(https://mblogthumb-phinf.pstatic.net/20160711_205/s1993_blue_146819140488648t6n_JPEG/zGettyImages-521431142.jpg?type=w800);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+}
+
+.second-items:nth-child(2) {
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/2330F84557F481E81B);
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+}
+
+.second-items:nth-child(3) {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/EtnaAvi%C3%B3.JPG/800px-EtnaAvi%C3%B3.JPG);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.second-items:nth-child(4) {
+    background-image: url(https://t1.daumcdn.net/cfile/blog/996887505EA2ABF33B);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.second-items {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+.second-items:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    z-index: 99;
+}
+
+.second-items .text-area {
+    background-color: rgb(0,0,0,0.4);
+    width:100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.point {
+    width: 100%;
+    height: 1200px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+}
+
+.title p {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+}
+
+.tour {
+    width: 100%;
+    height: 500px;
+    margin: 200px auto;
+    display: flex;
+}
+
+.tour img {
+    width: 50%;
+}
+
+.txt {
+    margin: auto 0 auto 30px;
+    font-family: 'Pretendard';
+    font-size:20px
+}
+
+body > div.container > div > div.tour1.tour > img {
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    transition: all 2s;
+}
+
+body > div.container > div > div.tour1.tour > img:hover {
+    top: 450px;
+    left: 700px;
+}
+
+.maintitle {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Pretendard';
+    margin-bottom: 50px;
+}
+
+body > div.container > div > div.tour2.tour > img {
+    position: absolute;
+    top: 1100px;
+    left: 800px;
+    transition: all 2s;
+}
+
+body > div.container > div > div.tour2.tour > img:hover {
+    top: 1100px;
+    left: 0px;
+}
+
+body > div.container > div > div.tour2.tour > div {
+    margin-left: 800px;
+}
+
+body > div.container > div > div.tour3.tour > img {
+    position: absolute;
+    top: 1900px;
+    left: 0px;
+    transition: all 2s;
+}
+
+body > div.container > div > div.tour3.tour > img:hover {
+    top: 1900px;
+    left: 700px;
+}
+
+body > div.container > div > div.tour3.tour > div {
+    margin-left: 70px;
+}
+
+body > div.container > div > div.tour4.tour > img {
+    position: absolute;
+    top: 2600px;
+    left: 800px;
+    transition: all 2s;
+}
+
+.tour4 {
+    margin-top: 250px;
+}
+
+body > div.container > div > div.tour4.tour > img:hover {
+    top: 2600px;
+    left: 0px;
+}
+
+body > div.container > div > div.tour4.tour > div {
+    margin-left: 800px;
+}
+
+
+body > div.container > div > div.tour5.tour > img {
+    position: absolute;
+    top: 3300px;
+    left: 0px;
+    transition: all 2s;
+}
+
+body > div.container > div > div.tour5.tour > img:hover {
+    top: 3300px;
+    left: 700px;
 }
