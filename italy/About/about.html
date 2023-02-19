@@ -4,21 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../main/css/nav.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../../img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../..img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../..img/favicon-16x16.png">
+    <link rel="manifest" href="../..img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <title>유럽 찍먹하기!</title>
 </head>
 <body>
     
     <!-- 내비게이션 -> sticky -->
     <div class="nav">
+        <li class="nav-logo">
+            <ul id="nav-item" class="nav-item"><a href="../main/index.html">Italy</a></ul>
+            <ul class="nav-ko">낭만의 나라 이탈리아</ul>
+        </li>
         <li class="nav-list"><a href="#"></a>
             <ul class="nav-item"><a class="a" href="../../index.html">Home</a></ul>
             <ul class="nav-item"><a class="a" href="../About/about.html">About</a></ul>
             <ul class="nav-item"><a class="a" href="../Tour/tour.html">Tour</a></ul>
-            <ul class="nav-item"><a class="a" href="../Review/review.html">Review</a></ul>
         </li>
     </div>
 
-    <script src="../main/js/nav.js"></script>
+    <button type="button" class="music" value="PLAY" onclick="play()">
+    <img src="./music/m.png" alt=""></button>
+    <audio id="audio" src="./music/italy.mp3"></audio>
+
+    <div class="main">
+        <img src="./img/main.png" alt="">
+        <div class="text-area">
+            <p class="title">이탈리아</p>
+            <p class="title2">남유럽과 지중해의 반도에 위치한 공화국</p>
+            <p class="title3">수도는 로마. 로마 제국의 중심지였던 국가라 고대 유럽 문화의 핵심</p>
+        </div>
+    </div>
+
+    <div class="main2">
+        <img src="./img/earth.png" alt="">
+        <div class="title4">위치 : 남유럽과 지중해의 반도<br/>
+            근방 국가 : 프랑스, 스위스, 오스트리아, 슬로베니아</div>
+    </div>
+
+    <div class="main3">
+        <p class="title5">이탈리아를 빛낸 위인들</p>
+        <img src="./img/main3.png" alt="">
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./music/music.js"></script>
 </body>
 </html>
