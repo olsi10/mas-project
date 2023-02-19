@@ -23,6 +23,10 @@
     padding: 0;
 }
 
+a {
+    color:black;
+}
+
 p, b{
     margin: 0 5px;
     font-family: 'Pretendard';
@@ -161,21 +165,33 @@ p, b{
 .hyper {
     width: 300px;
     height: 40px;
-    background-color: #FFD662;
     padding: 7px;
     align-items: center;
+    text-align: center;
     font-size: 23px;
     position: absolute;
 }
 
+body > div.container > div.france > div.hyper.hf {
+    background-image: url(https://cdn.shopify.com/s/files/1/0065/0661/0770/products/france_300x300.jpg?v=1558054611);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
 .hf {
     top: 400px;
-    left: 900px;
+    left: 800px;
 }
 
 .hi {
     top: 1050px;
     left: 400px;
+}
+
+body > div.container > div.italy > div.hyper.hi {
+    background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxNzA4MjJfMjAx/MDAxNTAzMzg0MTgzMjg4.wbfl2Tf-lW_r9zr0AqmwTxdPJUvd3E-LARYI45GajSkg.I9qP6d1wfDU7d_84tZEWYN-klbaxhS82Obj1Ggf7Jjog.JPEG.lod2016/%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%EA%B5%AD%EA%B8%B0.jpg?type=w800);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .hyper a:hover {

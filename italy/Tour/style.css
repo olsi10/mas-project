@@ -282,12 +282,20 @@ body > div.container > div > div.tour4.tour > div {
 
 body > div.container > div > div.tour5.tour > img {
     position: absolute;
-    top: 3300px;
+    top: 3400px;
     left: 0px;
     transition: all 2s;
 }
 
 body > div.container > div > div.tour5.tour > img:hover {
-    top: 3300px;
+    top: 3400px;
     left: 700px;
+}
+
+body > div.container > div > div.tour5.tour > div {
+    margin-top: 200px;
+}
+
+body > div.container > div > p:nth-child(9) {
+    margin-top: 200px;
 }
