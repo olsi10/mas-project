@@ -92,3 +92,15 @@ footer {
     text-align: center;
     background-color: #BAD7E9;
 }
+
+.btn {
+    position: absolute;
+    top: 750px;
+    left: 570px;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid black;
+    z-index: 99;
+    cursor: pointer;
+}
