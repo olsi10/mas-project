@@ -78,6 +78,7 @@ button:hover {
     font-size: 20px;
     text-align: center;
     align-items: center;
+    transition: all ease 0.4s;
 }
 
 .items:hover {
@@ -294,8 +295,21 @@ body > div.container > div > div.tour5.tour > img:hover {
 
 body > div.container > div > div.tour5.tour > div {
     margin-top: 200px;
+    margin-left: 100px;
 }
 
 body > div.container > div > p:nth-child(9) {
     margin-top: 200px;
+}
+
+.text-area:hover {
+    height: 100%; 
+}
+
+.second-items .text-area {
+    transition: all ease 0.4s;
+}
+
+.second-items .text-area:hover {
+    height: 100%;
 }
